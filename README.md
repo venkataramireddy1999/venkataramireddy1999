@@ -1,23 +1,59 @@
-<h1 align="center">Hi 👋, I'm Venkataramireddy</h1>
-<h3 align="center">A passionate AWS DevOps Engineer from India</h3>
+<!-- Profile Header -->
+<h1 align="center">👋 Hi, I'm Venkata Rami Reddy Bobbala</h1>
+<h3 align="center">🚀 AWS DevOps Engineer | Cloud Infrastructure | CI/CD | Automation Enthusiast</h3>
 
-- 🔭 I’m currently working on **John Wiley and Son's**
-
-- 🌱 I’m currently learning **AWS services, DevOps tools**
-
-- 💬 Ask me about **AWS services,DevOps tools**
-
-- 📫 How to reach me **venkataramireddy1999@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/venkata-rami-reddy-aa0667221" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="venkata-rami-reddy-aa0667221" height="30" width="40" /></a>
-<a href="https://instagram.com/_venkata_ramireddy_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_venkata_ramireddy_" height="30" width="40" /></a>
-<a href="https://www.youtube.com/@NonsyncBobbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="nonsyncbobbal" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://github.com/venkataramireddy1999"><img src="https://img.shields.io/badge/GitHub-venkataramireddy1999-blue?logo=github" /></a>
+  <a href="https://www.linkedin.com/in/venkataramireddy-bobbala/"><img src="https://img.shields.io/badge/LinkedIn-Venkata%20Rami%20Reddy-blue?logo=linkedin" /></a>
+  <a href="mailto:venkataramireddy1999@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+---
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/venkataramireddy"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Rami Reddy" /></a></p><br><br>
+### 🌩️ About Me
+
+I'm an **AWS DevOps Engineer with 4 years of professional experience** in designing, implementing, and managing cloud-based infrastructure.  
+I specialize in **CI/CD pipelines, automation, and infrastructure as code (IaC)** using tools like **Jenkins, Terraform, Ansible, Docker, and Kubernetes**.  
+
+Every week, I’m building **hands-on DevOps projects** to strengthen my expertise and contribute open-source automation scripts for others to learn.
+
+---
+
+### 🧰 Tech Stack
+
+| Category | Tools & Technologies |
+|-----------|----------------------|
+| ☁️ **Cloud** | AWS (EC2, S3, VPC, IAM, Lambda, CloudWatch, CloudFormation) |
+| ⚙️ **CI/CD** | Jenkins, GitHub Actions, ArgoCD |
+| 🧩 **IaC** | Terraform, AWS CloudFormation |
+| 🖥️ **Configuration Management** | Ansible |
+| 🐳 **Containers & Orchestration** | Docker, Kubernetes (EKS) |
+| 📊 **Monitoring** | Prometheus, Grafana, CloudWatch |
+| 💻 **Version Control & Scripting** | Git, Bash, Shell Scripting, YAML |
+
+---
+
+### 📅 Weekly Learning & Projects
+
+| Week | Focus Area | Repository | Description |
+|------|-------------|-------------|-------------|
+| 🟢 Week 1 | Jenkins CI/CD | [jenkins-projects](https://github.com/venkataramireddy1999/jenkins-projects) | Automating build, test, and deployment pipelines using Jenkins |
+| 🟡 Week 2 | Terraform | [terraform-projects](https://github.com/venkataramireddy1999/terraform-projects) | Infrastructure as Code on AWS using Terraform |
+| 🟠 Week 3 | Ansible | [ansible-projects](https://github.com/venkataramireddy1999/ansible-projects) | Server provisioning and configuration management |
+| 🔵 Week 4 | Docker & Kubernetes | [docker-kubernetes](https://github.com/venkataramireddy1999/docker-kubernetes) | Containerization and orchestration with EKS |
+| 🟣 Week 5 | AWS Automation | [aws-automation](https://github.com/venkataramireddy1999/aws-automation) | Automating AWS workflows with Lambda and CLI |
+| 🔴 Week 6 | Monitoring | [monitoring-projects](https://github.com/venkataramireddy1999/monitoring-projects) | Setting up Prometheus and Grafana for observability |
+
+*(New repositories will be added week by week as I progress.)*
+
+---
+
+### 🏗️ DevOps Workflow Overview
+
+```mermaid
+flowchart LR
+A[Developer Pushes Code] --> B[Jenkins CI/CD Pipeline]
+B --> C[Build Docker Image]
+C --> D[Push to Docker Hub]
+D --> E[Deploy on AWS EKS]
+E --> F[Monitor via Prometheus & Grafana]
