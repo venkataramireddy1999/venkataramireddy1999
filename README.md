@@ -21,7 +21,7 @@ Every week, I’m building **hands-on DevOps projects** to strengthen my experti
 
 ## 📄 Resume
 
-📥 [Download My Resume](https://github.com/venkataramireddy1999/resume/blob/main/Venkata_DevOps_Resume.pdf)
+📥 [Download My Resume](https://github.com/venkataramireddy1999/resume/blob/main/VENKATA RAMI REDDY_BOBBALA_RESUME.pdf)
 
 ---
 
