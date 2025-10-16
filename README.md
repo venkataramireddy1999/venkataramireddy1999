@@ -19,6 +19,12 @@ Every week, I’m building **hands-on DevOps projects** to strengthen my experti
 
 ---
 
+## 📄 Resume
+
+📥 [Download My Resume](https://github.com/venkataramireddy1999/resume/blob/main/Venkata_DevOps_Resume.pdf)
+
+---
+
 ### 🧰 Tech Stack
 
 | Category | Tools & Technologies |
@@ -92,6 +98,12 @@ E --> F[Monitor via Prometheus & Grafana]
 
 ---
 
+## 📈 GitHub Contribution Graph
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=venkataramireddy1999&theme=github-compact)
+
+---
+
 ## 🤝 Connect With Me
 
 <p align="center">
@@ -107,4 +119,3 @@ E --> F[Monitor via Prometheus & Grafana]
 </p>
 
 ⭐ *If you find my projects useful, please give them a star and follow my weekly DevOps learning journey!*
-
