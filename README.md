@@ -84,8 +84,7 @@ C --> G[Spring AI Integration]
 
 📈 GitHub Contribution Graph
 
-https://github-readme-activity-graph.vercel.app/graph?username=venkataramireddy1999&theme=github-compact
-
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=venkataramireddy1999&theme=github-compact)
 ---
 
 🤝 Connect With Me
