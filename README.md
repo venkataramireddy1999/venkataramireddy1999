@@ -79,30 +79,6 @@ C --> G[Spring AI Integration]
 
 ---
 
-📊 GitHub Stats
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=venkataramireddy1999&show_icons=true&theme=radical&cache_seconds=1800" 
-    alt="GitHub Stats" 
-    width="49%"
-  />
-
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=venkataramireddy1999&layout=compact&theme=radical&cache_seconds=1800" 
-    alt="Top Languages" 
-    width="49%"
-  />
-</p>
-
----
-
-## 📈 GitHub Contribution Graph
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=venkataramireddy1999&theme=github-compact)
-
----
-
 🤝 Connect With Me
 <p align="center">
 <a href="https://www.linkedin.com/in/venkataramiredddy-bobbala/">
