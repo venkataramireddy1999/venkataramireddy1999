@@ -37,10 +37,19 @@ I’m passionate about **system maintainability, performance optimization, and m
 ```mermaid
 flowchart LR
 A[Client Request] --> B[Spring Boot REST API]
+
+B --> F[Spring Security - JWT Auth]
+
 B --> C[Business Logic Layer]
+
 C --> D[Spring JPA / JDBC]
 D --> E[Database: PostgreSQL/MySQL]
-B --> F[Spring Security - JWT Auth]
+
+C --> H[Redis Cache]
+H --> E
+
+C --> I[Apache Kafka Event Streaming]
+
 C --> G[Spring AI Integration]
 ```
 ---
