@@ -19,12 +19,6 @@ I’m passionate about **system maintainability, performance optimization, and m
 
 ---
 
-## 📄 Resume
-
-📥 [Download My Resume](https://github.com/venkataramireddy1999/resume/blob/main/VENKATA_RAMI_REDDY_BOBBALA_RESUME.pdf)
-
----
-
 ### 🧰 Tech Stack
 
 | Category | Tools & Technologies |
