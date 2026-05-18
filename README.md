@@ -26,6 +26,7 @@ I’m passionate about **system maintainability, performance optimization, and m
 | 💻 **Languages** | Java (8/11/17), SQL |
 | 🧩 **Frameworks** | Spring Boot, Spring MVC, Spring JPA, Spring JDBC, Spring Security, Spring AI, Spring AOP |
 | ⚙️ **Architecture** | Microservices, RESTful APIs, Event-Driven Architecture |
+| ⚡**Messaging & Caching** | Apache Kafka, Redis |
 | 🛠️ **Tools & Build** | Git, Maven, JUnit, Mockito |
 | 🗄️ **Databases** | PostgreSQL, MySQL |
 
