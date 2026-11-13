@@ -1,10 +1,10 @@
 <!-- Profile Header -->
 <h1 align="center">👋 Hi, I'm Venkata Rami Reddy Bobbala</h1>
-<h3 align="center">🚀 Java Backend Developer | Spring Ecosystem | Microservices | AI Integration</h3>
+<h3 align="center">🚀 Java Backend Developer | Spring Ecosystem | Microservices | Event-Driven Systems | AI Integration</h3>
 
 <p align="center">
   <a href="https://github.com/venkataramireddy1999"><img src="https://img.shields.io/badge/GitHub-venkataramireddy1999-blue?logo=github" /></a>
-  <a href="https://www.linkedin.com/in/venkataramiredddy-bobbala/"><img src="https://img.shields.io/badge/LinkedIn-Venkata%20Rami%20Reddy-blue?logo=linkedin" /></a>
+  <a href="https://www.linkedin.com/in/venkataramireddy-bobbala/"><img src="https://img.shields.io/badge/LinkedIn-Venkata%20Rami%20Reddy-blue?logo=linkedin" /></a>
   <a href="mailto:venkataramireddy1999@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail" /></a>
 </p>
 
@@ -12,10 +12,9 @@
 
 ### 🌩️ About Me
 
-I'm a **Java Backend Developer with 4 years of professional experience** specializing in the **Spring ecosystem**.  
-I focus on **building scalable microservices, optimizing database interactions, and integrating AI into enterprise applications** using **Spring AI**.  
-
-I’m passionate about **system maintainability, performance optimization, and modern design patterns** that reduce boilerplate code and improve scalability.
+I'm a **Java Backend Developer with 4 years of experience** building **scalable, production-grade distributed systems** with Java and the **Spring ecosystem**.  
+At **Tata Consultancy Services**, I delivered event-driven microservices with **Apache Kafka**, low-latency caching with **Redis**, and containerized deployments with **Docker**.  
+I'm also building with **Spring AI**, including LLM tool-calling agents, and I focus on maintainable architecture, database performance, and secure API design with **JWT** and **RBAC**.
 
 ---
 
@@ -24,11 +23,45 @@ I’m passionate about **system maintainability, performance optimization, and m
 | Category | Tools & Technologies |
 |-----------|----------------------|
 | 💻 **Languages** | Java (8/11/17), SQL |
-| 🧩 **Frameworks** | Spring Boot, Spring MVC, Spring JPA, Spring JDBC, Spring Security, Spring AI, Spring AOP |
-| ⚙️ **Architecture** | Microservices, RESTful APIs, Event-Driven Architecture |
-| ⚡**Messaging & Caching** | Apache Kafka, Redis |
-| 🛠️ **Tools & Build** | Git, Maven, JUnit, Mockito |
-| 🗄️ **Databases** | PostgreSQL, MySQL |
+| 🧩 **Frameworks** | Spring Boot, Spring MVC, Spring Data JPA, Spring JDBC, Spring Security, Spring AOP, Spring AI |
+| ⚙️ **Architecture** | Microservices, REST APIs, Event-Driven Architecture, Spring Cloud Gateway, gRPC |
+| ⚡ **Messaging & Caching** | Apache Kafka, Redis, Spring Cache, Lettuce |
+| 🗄️ **Databases** | PostgreSQL, MySQL, Indexing, Query Optimization |
+| 🔐 **Security** | Spring Security, JWT, Role-Based Authorization |
+| 🐳 **DevOps & Tooling** | Docker, Docker Compose, Git, Maven, CI/CD Pipelines |
+| 🧪 **Testing** | JUnit, Mockito, Testcontainers, Integration Testing |
+
+---
+
+### 💼 Professional Experience
+
+**Java Backend Developer @ Tata Consultancy Services (TCS)**, Hyderabad, India · Dec 2021 – Dec 2025
+
+- Built and maintained scalable backend microservices with Java 17, Spring Boot, and Spring MVC, supporting 10,000+ concurrent users at 99.9% uptime.
+- Designed Kafka event-driven pipelines for asynchronous inter-service communication, reducing service coupling and improving throughput by 40% under peak load.
+- Implemented Redis distributed caching with Spring Cache and Lettuce, cutting average API response times by 60% on high-frequency reads.
+- Containerized microservices with Docker, standardizing dev/prod environments and reducing deployment setup time by 30%.
+- Improved PostgreSQL and MySQL performance through indexing and query refactoring, reducing slow query count by 35%.
+- Engineered JWT-based authentication and role-based authorization with Spring Security across production services.
+- Led production incident investigations using log analysis and profiling, delivering hotfixes with sub-2-hour MTTR.
+
+---
+
+### 🚀 Projects
+
+**AI Agents: Tool-Calling Agent Platform** · `Spring AI` `Spring Boot` `OpenAI` `Lombok`  
+[GitHub](https://github.com/venkataramireddy1999)
+
+- Built a conversational agent where the LLM selects and invokes the correct backend tool at runtime, replacing hardcoded if/else routing.
+- Implemented five `@Tool`-annotated tool sets across travel (flights, hotels, weather) and e-commerce support (orders, inventory), exposed through a single REST `/chat` endpoint.
+- Added sliding-window `ChatMemory` to keep context across multi-turn conversations.
+
+**Patient Management System: Microservices Platform** · `Java 17` `Spring Boot` `Kafka` `gRPC` `Docker`  
+[GitHub](https://github.com/venkataramireddy1999)
+
+- Designed five independently deployable services (API Gateway, Auth, Patient, Billing, Analytics) on an internal Docker network.
+- Implemented JWT authentication and centralized routing with Spring Cloud Gateway, keeping downstream services internal-only.
+- Used gRPC for synchronous Patient-to-Billing calls and Kafka for asynchronous event streaming to the Analytics service, with isolated PostgreSQL databases per service.
 
 ---
 
@@ -36,60 +69,23 @@ I’m passionate about **system maintainability, performance optimization, and m
 
 ```mermaid
 flowchart LR
-A[Client Request] --> B[Spring Boot REST API]
-
-B --> F[Spring Security - JWT Auth]
-
-B --> C[Business Logic Layer]
-
-C --> D[Spring JPA / JDBC]
-D --> E[Database: PostgreSQL/MySQL]
-
-C --> H[Redis Cache]
-H --> E
-
-C --> I[Apache Kafka Event Streaming]
-
-C --> G[Spring AI Integration]
+    A[Client Request] --> B[Spring Cloud Gateway]
+    B --> C[Spring Security - JWT Auth]
+    C --> D[Spring Boot Service Layer]
+    D --> E[(PostgreSQL / MySQL)]
+    D --> F[(Redis Cache)]
+    D --> G[Kafka Event Bus]
+    G --> H[Async Consumers]
 ```
----
-
-🧠 Experience
-
-🧩 4 Years of Experience as a Java Backend Developer at TCS
-💡 Expertise in Spring Boot, Microservices, and AI-powered enterprise solutions
-🔒 Strong background in API security, performance optimization, and modular architecture
 
 ---
 
-🛠️ Tool Badges
+### 🎓 Education
 
-<p align="center">
-<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
-</p>
+**Bachelor of Technology (B.Tech)**, Electrical and Electronics Engineering · ACE Engineering College, Hyderabad (2017 – 2021)
 
 ---
 
-🤝 Connect With Me
-<p align="center">
-<a href="https://www.linkedin.com/in/venkataramiredddy-bobbala/">
-<img src="https://img.shields.io/badge/LinkedIn-Venkata%20Rami%20Reddy-blue?logo=linkedin&style=for-the-badge">
-</a>
-<a href="mailto:venkataramireddy1999@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-venkataramireddy1999%40gmail.com-red?logo=gmail&style=for-the-badge">
-</a>
-<a href="https://github.com/venkataramireddy1999">
-<img src="https://img.shields.io/badge/GitHub-venkataramireddy1999-black?logo=github&style=for-the-badge">
-</a>
-</p>
+### 📫 Let's Connect
 
-⭐ If you find my profile interesting, please follow me and stay tuned for future backend projects!
+I'm open to Java backend and Spring-focused roles. Reach me at [venkataramireddy1999@gmail.com](mailto:venkataramireddy1999@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/venkataramireddy-bobbala/).
